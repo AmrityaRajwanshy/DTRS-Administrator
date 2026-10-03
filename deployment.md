@@ -8,9 +8,8 @@ This guide provides step-by-step instructions for deploying the **DTRS SYSTEM â€
 
 The repository is structured as a full-stack application:
 - **`frontend/`**: Next.js 14 React client with TailwindCSS and interactive simulation views.
-- **`backend/`**: FastAPI Python server running the 5-Stage Compound Delay Engine, master timetable cache, and simulation sandboxes.
-- **`api/index.py`**: Vercel Serverless entrypoint connecting directly to the FastAPI app.
-- **`vercel.json`**: Root configuration routing `/api/*` requests to the Python backend and all other routes to Next.js.
+- **`backend/`**: FastAPI Python server running the 5-Stage Compound Delay Engine, master timetable cache, and simulation sandboxes (entrypoint: `backend/AppServer.py`).
+- **`vercel.json`**: Multi-service configuration routing `/api/*` to the Python backend and all other routes to Next.js.
 
 ---
 
