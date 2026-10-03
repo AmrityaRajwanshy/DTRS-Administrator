@@ -136,3 +136,7 @@ Once deployed, verify that the application is operating correctly by testing the
   Ensure Node.js version is set to 18.x or 20.x in **Vercel Project Settings $\rightarrow$ General $\rightarrow$ Node.js Version**.
 - **Missing Python Packages**:
   Verify [`requirements.txt`](./requirements.txt) exists at the repository root and inside `backend/`.
+
+  Using OG mail
+  [EMAIL_ADDRESS]
+  
